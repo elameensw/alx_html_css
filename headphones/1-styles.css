@@ -1,0 +1,54 @@
+.header,
+.header * {
+  box-sizing: border-box;
+}
+.header {
+  position: absolute;
+  inset: 0;
+}
+.menu {
+  width: 255px;
+  height: 15px;
+  position: absolute;
+  left: 946px;
+  top: 37px;
+  overflow: hidden;
+}
+.what-we-do {
+  color: #ffffff;
+  text-align: left;
+  font: 700 12px "SourceSansPro-Bold", sans-serif;
+  position: absolute;
+  right: 76.08%;
+  left: 0%;
+  width: 23.92%;
+  top: calc(50% - 7.5px);
+}
+.our-results {
+  color: #ffffff;
+  text-align: left;
+  font: 700 12px "SourceSansPro-Bold", sans-serif;
+  position: absolute;
+  right: 37.65%;
+  left: 40%;
+  width: 22.35%;
+  top: calc(50% - 7.5px);
+}
+.contact-us {
+  color: #ffffff;
+  text-align: left;
+  font: 700 12px "SourceSansPro-Bold", sans-serif;
+  position: absolute;
+  right: 0%;
+  left: 78.43%;
+  width: 21.57%;
+  top: calc(50% - 7.5px);
+}
+.logo {
+  width: 161px;
+  height: 32px;
+  position: absolute;
+  left: 200.61px;
+  top: 27.76px;
+  overflow: visible;
+}
