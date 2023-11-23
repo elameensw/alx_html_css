@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -29,6 +30,44 @@ header .head {
 .head a img {
   width: 161px;
   height: 32px;
+=======
+.container {
+  position: relative;
+} .item{ position: absolute;
+}
+#item_0 {
+   left: 745.39px;
+  top: 9.24px;
+  font-size: 12px;
+  width: 61px;
+  font-family: "Source Sans Pro";
+  font-weight: Bold;
+  color: rgba(255, 255, 255, 1);
+}
+#item_1 {
+   left: 847.39px;
+  top: 9.24px;
+  font-size: 12px;
+  width: 57px;
+  font-family: "Source Sans Pro";
+  font-weight: Bold;
+  color: rgba(255, 255, 255, 1);
+}
+#item_2 {
+   left: 945.39px;
+  top: 9.24px;
+  font-size: 12px;
+  width: 55px;
+  font-family: "Source Sans Pro";
+  font-weight: Bold;
+  color: rgba(255, 255, 255, 1);
+}
+#item_3 {
+   left: 12.39px;
+  top: 13.24px;
+  width: 8px;
+  height: 8px;
+>>>>>>> 5b35299605158a69ac14f0e15705b196a8840a2a
 }
 ul {
   list-style: none;
