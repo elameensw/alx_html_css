@@ -1,54 +1,37 @@
-.header,
-.header * {
-  box-sizing: border-box;
+.container {
+  position: relative;
+} .item{ position: absolute;
 }
-.header {
-  position: absolute;
-  inset: 0;
+#item_0 {
+   left: 745.39px;
+  top: 9.24px;
+  font-size: 12px;
+  width: 61px;
+  font-family: "Source Sans Pro";
+  font-weight: Bold;
+  color: rgba(255, 255, 255, 1);
 }
-.menu {
-  width: 255px;
-  height: 15px;
-  position: absolute;
-  left: 946px;
-  top: 37px;
-  overflow: hidden;
+#item_1 {
+   left: 847.39px;
+  top: 9.24px;
+  font-size: 12px;
+  width: 57px;
+  font-family: "Source Sans Pro";
+  font-weight: Bold;
+  color: rgba(255, 255, 255, 1);
 }
-.what-we-do {
-  color: #ffffff;
-  text-align: left;
-  font: 700 12px "SourceSansPro-Bold", sans-serif;
-  position: absolute;
-  right: 76.08%;
-  left: 0%;
-  width: 23.92%;
-  top: calc(50% - 7.5px);
+#item_2 {
+   left: 945.39px;
+  top: 9.24px;
+  font-size: 12px;
+  width: 55px;
+  font-family: "Source Sans Pro";
+  font-weight: Bold;
+  color: rgba(255, 255, 255, 1);
 }
-.our-results {
-  color: #ffffff;
-  text-align: left;
-  font: 700 12px "SourceSansPro-Bold", sans-serif;
-  position: absolute;
-  right: 37.65%;
-  left: 40%;
-  width: 22.35%;
-  top: calc(50% - 7.5px);
-}
-.contact-us {
-  color: #ffffff;
-  text-align: left;
-  font: 700 12px "SourceSansPro-Bold", sans-serif;
-  position: absolute;
-  right: 0%;
-  left: 78.43%;
-  width: 21.57%;
-  top: calc(50% - 7.5px);
-}
-.logo {
-  width: 161px;
-  height: 32px;
-  position: absolute;
-  left: 200.61px;
-  top: 27.76px;
-  overflow: visible;
+#item_3 {
+   left: 12.39px;
+  top: 13.24px;
+  width: 8px;
+  height: 8px;
 }
