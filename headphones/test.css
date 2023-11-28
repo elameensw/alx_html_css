@@ -1,4 +1,71 @@
 :root {
---black-color: #071629;
+    --black-color: #071629;
+    --orange-color: #FF6565;
+}
 
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+/*Buttons*/
+
+.btn {
+
+    padding: 16px 32px;
+    border-radius: 22px;
+    background: var(--orange-color);
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+
+/*header*/
+
+header {
+    background-image: url("images/headphones_hero_1.jpg");
+    height: 800px;
+    width: 100%;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+   display: flex;
+   align-items: center;
+   gap: 60px;
+   list-style: none;
+
+}
+
+nav ul li a {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
 }
